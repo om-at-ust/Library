@@ -1,5 +1,6 @@
 package com.AuthorServices.Author.Controller;
 
+import com.AuthorServices.Author.dto.Authordto;
 import com.AuthorServices.Author.entity.Author;
 import com.AuthorServices.Author.service.AuthorService;
 import org.apache.coyote.Response;
@@ -7,6 +8,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
 
 @RestController
 @RequestMapping("/api/v1")
@@ -30,4 +33,10 @@ public class AuthorController {
     private ResponseEntity<Author> updateAuthor(@RequestBody Author author){
         return new ResponseEntity<>(authorService.updateAuthor(author), HttpStatus.CREATED);
     }
+
+    @GetMapping("/Authors")
+    private ResponseEntity<List<Authordto>> getAllAuthors(){
+        return new ResponseEntity<>(authorService.getAllAuthors(),HttpStatus.OK);
+    }
+
 }
