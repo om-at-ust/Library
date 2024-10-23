@@ -19,7 +19,7 @@ public class AuthorController {
     private AuthorService authorService;
 
 
-    @GetMapping("/getAuthor/{id}")
+    @GetMapping("/getAuthor/{authorId}")
     private ResponseEntity<Author> getAuthor(@PathVariable String id){
         return new ResponseEntity<>(authorService.getAuthor(id), HttpStatus.OK);
     }
@@ -34,9 +34,9 @@ public class AuthorController {
         return new ResponseEntity<>(authorService.updateAuthor(author), HttpStatus.CREATED);
     }
 
-    @GetMapping("/Authors")
-    private ResponseEntity<List<Authordto>> getAllAuthors(){
-        return new ResponseEntity<>(authorService.getAllAuthors(),HttpStatus.OK);
+    @GetMapping("/authors")
+    private List<Authordto> getAllAuthors(){
+        return authorService.getAllAuthors();
     }
 
 }
