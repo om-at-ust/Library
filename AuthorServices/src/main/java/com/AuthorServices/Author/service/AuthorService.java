@@ -25,7 +25,7 @@ public class AuthorService {
         return authorRepository.save(author);
     }
 
-    public Author getAuthor(ObjectId id) {
+    public Author getAuthor(String id) {
         return authorRepository.findById(id).orElse(null);
     }
 

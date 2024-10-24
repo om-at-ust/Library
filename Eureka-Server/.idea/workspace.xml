@@ -5,21 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="46e69dd6-6be3-4500-aad6-204b5517c477" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Book-Service/src/main/java/com/demo/book_service/Feign/AuthorClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Book-Service/src/main/java/com/demo/book_service/client/Author.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Book-Service/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AuthorServices/src/main/java/com/AuthorServices/Author/Controller/AuthorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AuthorServices/src/main/java/com/AuthorServices/Author/Controller/AuthorController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AuthorServices/src/main/java/com/AuthorServices/Author/dao/AuthorRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AuthorServices/src/main/java/com/AuthorServices/Author/dao/AuthorRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AuthorServices/src/main/java/com/AuthorServices/Author/service/AuthorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AuthorServices/src/main/java/com/AuthorServices/Author/service/AuthorService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Book-Service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Book-Service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Book-Service/src/main/java/com/demo/book_service/BookServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Book-Service/src/main/java/com/demo/book_service/BookServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Book-Service/src/main/java/com/demo/book_service/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Book-Service/src/main/java/com/demo/book_service/controller/BookController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Book-Service/src/main/java/com/demo/book_service/entity/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Book-Service/src/main/java/com/demo/book_service/entity/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Book-Service/src/main/java/com/demo/book_service/service/BooksService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Book-Service/src/main/java/com/demo/book_service/service/BooksService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Book-Service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Book-Service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,19 +45,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.AirlinesServicesApplication.executor": "Run",
-    "Application.BookAuthorServicesApplication.executor": "Run",
-    "Maven.AirlinesServices [clean].executor": "Run",
-    "Maven.AirlinesServices [install].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Administrator/Downloads/microservice-webclient-main/Cloud-config/Cloud-config"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AirlinesServicesApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BookAuthorServicesApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.AirlinesServices [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.AirlinesServices [install].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Administrator/Downloads/microservice-webclient-main/Cloud-config/Cloud-config&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="BookAuthorServicesApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ust.AirlinesServices.BookAuthorServicesApplication" />
