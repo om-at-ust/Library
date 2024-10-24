@@ -2,6 +2,7 @@ package com.demo.book_service.controller;
 
 import java.util.List;
 
+import com.demo.book_service.client.Author;
 import com.demo.book_service.service.BooksService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -34,5 +35,15 @@ public class BookController {
 	@PostMapping("/books")
 	public Book addBook(@RequestBody Book newBook) {
 		return booksService.addBook(newBook);
+	}
+
+	@GetMapping
+	public List<Author> getAllAuthors() {
+		return booksService.getAllAuthors();
+	}
+
+	@GetMapping("/getAuthor/{authorId}")
+	public Author getAuthorById(@PathVariable String authorId) {
+		return booksService.getAuthorById(authorId);
 	}
 }

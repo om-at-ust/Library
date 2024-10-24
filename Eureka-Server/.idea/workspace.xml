@@ -5,10 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="46e69dd6-6be3-4500-aad6-204b5517c477" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Book-Service/src/main/java/com/demo/book_service/Feign/AuthorClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Book-Service/src/main/java/com/demo/book_service/client/Author.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Book-Service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AuthorServices/src/main/java/com/AuthorServices/Author/Controller/AuthorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AuthorServices/src/main/java/com/AuthorServices/Author/Controller/AuthorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AuthorServices/src/main/java/com/AuthorServices/Author/dao/AuthorRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AuthorServices/src/main/java/com/AuthorServices/Author/dao/AuthorRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AuthorServices/src/main/java/com/AuthorServices/Author/service/AuthorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AuthorServices/src/main/java/com/AuthorServices/Author/service/AuthorService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Book-Service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Book-Service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Book-Service/src/main/java/com/demo/book_service/BookServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Book-Service/src/main/java/com/demo/book_service/BookServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Book-Service/src/main/java/com/demo/book_service/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Book-Service/src/main/java/com/demo/book_service/controller/BookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Book-Service/src/main/java/com/demo/book_service/entity/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Book-Service/src/main/java/com/demo/book_service/entity/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Book-Service/src/main/java/com/demo/book_service/service/BooksService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Book-Service/src/main/java/com/demo/book_service/service/BooksService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Book-Service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Book-Service/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,18 +29,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "ShreyaBS-258"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;ShreyaBS-258&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/om-at-ust/Library.git",
-    "accountId": "2df3e69f-3ad8-41f6-8275-69ef461d79c5"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/om-at-ust/Library.git&quot;,
+    &quot;accountId&quot;: &quot;2df3e69f-3ad8-41f6-8275-69ef461d79c5&quot;
   }
-}]]></component>
+}</component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -48,6 +59,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.AirlinesServicesApplication.executor": "Run",
+    "Application.BookAuthorServicesApplication.executor": "Run",
     "Maven.AirlinesServices [clean].executor": "Run",
     "Maven.AirlinesServices [install].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -58,17 +70,24 @@
   }
 }]]></component>
   <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
+    <configuration name="BookAuthorServicesApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ust.AirlinesServices.BookAuthorServicesApplication" />
+      <module name="BookAuthorServices" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ust.AirlinesServices.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.BookAuthorServicesApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

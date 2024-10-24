@@ -4,6 +4,7 @@ import com.AuthorServices.Author.dto.Authordto;
 import com.AuthorServices.Author.entity.Author;
 import com.AuthorServices.Author.service.AuthorService;
 import org.apache.coyote.Response;
+import org.bson.types.ObjectId;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -21,7 +22,8 @@ public class AuthorController {
 
     @GetMapping("/getAuthor/{authorId}")
     private ResponseEntity<Author> getAuthor(@PathVariable String id){
-        return new ResponseEntity<>(authorService.getAuthor(id), HttpStatus.OK);
+        ObjectId objectId = new ObjectId(id);
+        return new ResponseEntity<>(authorService.getAuthor(objectId), HttpStatus.OK);
     }
 
     @PostMapping("/addAuthor")

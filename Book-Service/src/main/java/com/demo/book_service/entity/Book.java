@@ -8,7 +8,6 @@ import org.springframework.data.mongodb.core.mapping.Document;
 
 @Document
 public class Book {
-
     private String bookTitle;
 	private String bookPrice;
 	private LocalDate bookPublished;

@@ -3,6 +3,7 @@ package com.AuthorServices.Author.service;
 import com.AuthorServices.Author.dao.AuthorRepository;
 import com.AuthorServices.Author.dto.Authordto;
 import com.AuthorServices.Author.entity.Author;
+import org.bson.types.ObjectId;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -24,8 +25,8 @@ public class AuthorService {
         return authorRepository.save(author);
     }
 
-    public Author getAuthor(String id) {
-        return authorRepository.findById(id).get();
+    public Author getAuthor(ObjectId id) {
+        return authorRepository.findById(id).orElse(null);
     }
 
     public List<Authordto> getAllAuthors() {
@@ -36,4 +37,5 @@ public class AuthorService {
         Authordto authordto = new Authordto(author.getAuthorId(), author.getAuthorName());
         return authordto;
     }
+
 }
