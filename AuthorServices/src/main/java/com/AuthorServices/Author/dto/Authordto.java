@@ -1,22 +1,22 @@
 package com.AuthorServices.Author.dto;
 
 public class Authordto {
-    private String authorId;
+    private String _id;
     private String authorName;
 
     public Authordto() {
     }
-    public Authordto(String authorId, String authorName) {
-        this.authorId = authorId;
+    public Authordto(String _id, String authorName) {
+        this._id = _id;
         this.authorName = authorName;
     }
 
-    public String getAuthorId() {
-        return authorId;
+    public String get_id() {
+        return _id;
     }
 
-    public void setAuthorId(String authorId) {
-        this.authorId = authorId;
+    public void set_id(String _id) {
+        this._id = _id;
     }
 
     public String getAuthorName() {

@@ -6,7 +6,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @Document
 public class Author {
     @Id
-    private String authorId;
+    private String _id;
     private String authorName;
     private String authorEmail;
     private String authorBio;
@@ -15,7 +15,7 @@ public class Author {
 
 
     public Author(String authorId, String authorName, String authorEmail, String authorBio, String authorAddress, String authorPhoneNumber) {
-        this.authorId = authorId;
+        this._id = authorId;
         this.authorName = authorName;
         this.authorEmail = authorEmail;
         this.authorBio = authorBio;
@@ -23,7 +23,7 @@ public class Author {
         this.authorPhoneNumber = authorPhoneNumber;
     }
     public String getAuthorId() {
-        return authorId;
+        return _id;
     }
     public Author() {
     }
