@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="46e69dd6-6be3-4500-aad6-204b5517c477" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../AuthorServices/src/main/java/com/AuthorServices/Author/Controller/AuthorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AuthorServices/src/main/java/com/AuthorServices/Author/Controller/AuthorController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AuthorServices/src/main/java/com/AuthorServices/Author/dao/AuthorRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AuthorServices/src/main/java/com/AuthorServices/Author/dao/AuthorRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AuthorServices/src/main/java/com/AuthorServices/Author/service/AuthorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AuthorServices/src/main/java/com/AuthorServices/Author/service/AuthorService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="46e69dd6-6be3-4500-aad6-204b5517c477" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
