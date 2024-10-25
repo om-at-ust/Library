@@ -5,12 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="46e69dd6-6be3-4500-aad6-204b5517c477" name="Changes" comment="">
-<<<<<<< HEAD
-=======
-      <change beforePath="$PROJECT_DIR$/../AuthorServices/src/main/java/com/AuthorServices/Author/Controller/AuthorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AuthorServices/src/main/java/com/AuthorServices/Author/Controller/AuthorController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AuthorServices/src/main/java/com/AuthorServices/Author/dao/AuthorRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AuthorServices/src/main/java/com/AuthorServices/Author/dao/AuthorRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AuthorServices/src/main/java/com/AuthorServices/Author/service/AuthorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AuthorServices/src/main/java/com/AuthorServices/Author/service/AuthorService.java" afterDir="false" />
->>>>>>> 606782579602a0f9d5c89e67717ef91fb945bc47
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
