@@ -21,9 +21,9 @@ public class AuthorController {
 
 
     @GetMapping("/getAuthor/{authorId}")
-    private ResponseEntity<Author> getAuthor(@PathVariable String id){
-        ObjectId objectId = new ObjectId(id);
-        return new ResponseEntity<>(authorService.getAuthor(objectId), HttpStatus.OK);
+    private ResponseEntity<Author> getAuthor(@PathVariable String authorId){
+//        ObjectId objectId = new ObjectId(authorId);
+        return new ResponseEntity<>(authorService.getAuthor(authorId), HttpStatus.OK);
     }
 
     @PostMapping("/addAuthor")
