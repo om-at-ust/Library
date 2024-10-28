@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/v1")
+@RequestMapping("/api/v2")
 public class AuthorController {
 
     @Autowired
@@ -25,6 +25,7 @@ public class AuthorController {
 //        ObjectId objectId = new ObjectId(authorId);
         return new ResponseEntity<>(authorService.getAuthor(authorId), HttpStatus.OK);
     }
+
 
     @PostMapping("/addAuthor")
     private ResponseEntity<Author> createAuthor(@RequestBody Author author){
