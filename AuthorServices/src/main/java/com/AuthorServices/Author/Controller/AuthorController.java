@@ -13,31 +13,31 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/v2")
+@RequestMapping("/api/author")
 public class AuthorController {
 
     @Autowired
     private AuthorService authorService;
 
 
-    @GetMapping("/getAuthor/{authorId}")
+    @GetMapping("/getauthor/{authorId}")
     private ResponseEntity<Author> getAuthor(@PathVariable String authorId){
 //        ObjectId objectId = new ObjectId(authorId);
         return new ResponseEntity<>(authorService.getAuthor(authorId), HttpStatus.OK);
     }
 
 
-    @PostMapping("/addAuthor")
+    @PostMapping("/addauthor")
     private ResponseEntity<Author> createAuthor(@RequestBody Author author){
         return  new ResponseEntity<>(authorService.createAuthor(author), HttpStatus.CREATED);
     }
 
-    @PostMapping("/updateAuthor")
+    @PostMapping("/updateauthor")
     private ResponseEntity<Author> updateAuthor(@RequestBody Author author){
         return new ResponseEntity<>(authorService.updateAuthor(author), HttpStatus.CREATED);
     }
 
-    @GetMapping("/authors")
+    @GetMapping("/getauthors")
     private List<Authordto> getAllAuthors(){
         return authorService.getAllAuthors();
     }

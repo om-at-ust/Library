@@ -7,13 +7,13 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 import java.util.List;
 
-@FeignClient(name="Author",url="http://localhost:8989/api/v1")
+@FeignClient(name="AuthorService",url="http://authorservice-sr:8989/api/author")
 public interface AuthorClient {
 
-    @GetMapping("/authors")
+    @GetMapping("/getauthors")
     List<Author> getAllAuthors();
 
-    @GetMapping("/getAuthor/{authorId}")
+    @GetMapping("/getauthor/{authorId}")
     ResponseEntity<Author> getAuthorById(String authorId);
 
 }

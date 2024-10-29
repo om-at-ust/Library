@@ -1,9 +1,9 @@
 package com.UST.GatewayApplication.filter;
 
-import jakarta.ws.rs.core.HttpHeaders;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.gateway.filter.GatewayFilter;
 import org.springframework.cloud.gateway.filter.factory.AbstractGatewayFilterFactory;
+import org.springframework.http.HttpHeaders;
 import org.springframework.stereotype.Component;
 import org.springframework.web.client.RestClient;
 
@@ -13,8 +13,7 @@ public class AuthenticationFilter extends AbstractGatewayFilterFactory<Authentic
     @Autowired
     private RouteValidator validator;
 
-//	@Autowired
-//	private RestClient restClient;
+
 
     public AuthenticationFilter() {
         super(Config.class);
@@ -28,7 +27,7 @@ public class AuthenticationFilter extends AbstractGatewayFilterFactory<Authentic
             // for the uris NOT specified in the RouteValidator do the following steps
             if (validator.isSecured.test(exchange.getRequest())) {
                 // check if the exchange request header contains the Authorization header
-                if (!exchange.getRequest().getHeaders().containsKey(HttpHeaders.AUTHORIZATION)) {
+                if (!exchange.getRequest().getHeaders().containsKey(org.springframework.http.HttpHeaders.AUTHORIZATION)) {
                     throw new RuntimeException("Missing Authorization Header");
                 }
                 // take out the AUthorization header
@@ -36,7 +35,9 @@ public class AuthenticationFilter extends AbstractGatewayFilterFactory<Authentic
                 if (authHeaderToken != null && authHeaderToken.startsWith("Bearer")) {
                     // remove Bearer from front
                     authHeaderToken = authHeaderToken.substring(7);
+
                 }
+                System.out.println(authHeaderToken);
                 try {
                     // now consume /api/auth/validate/token of authentication-service using
                     // RestClient
@@ -44,7 +45,7 @@ public class AuthenticationFilter extends AbstractGatewayFilterFactory<Authentic
                     RestClient restClient = RestClient.create();
                     restClient
                             .get()
-                            .uri("http://localhost:8090/validate/token?token=" + authHeaderToken)
+                            .uri("http://authenticationservice-sr:8090/api/auth/validate/token?token=" + authHeaderToken)
                             .retrieve()
                             .body(Boolean.class);
                     // also instead of making a RestClient call for every request, we can validate
@@ -58,5 +59,4 @@ public class AuthenticationFilter extends AbstractGatewayFilterFactory<Authentic
             return chain.filter(exchange);
         });
     }
-
 }

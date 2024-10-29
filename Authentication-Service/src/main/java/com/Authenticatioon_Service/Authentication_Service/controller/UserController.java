@@ -24,10 +24,7 @@ public class UserController {
     @Autowired
     private JwtService jwt;
 
-    @GetMapping("/health")
-    public String getHealth(){
-        return "ok";
-    }
+
 
     @PostMapping("/register")
     public ResponseEntity<String> register(@RequestBody Userdto userdto){
@@ -48,15 +45,11 @@ public class UserController {
 
 
 
-    @PostMapping("/validate/token")
-    public ResponseEntity<String> validate(@RequestParam String token){
-        try{
-            jwt.validateToken(token);
-        }
-        catch (Exception e){
-            return new ResponseEntity<>("Token not valid", HttpStatus.CONFLICT);
-        }
-        return new ResponseEntity<>("Token is valid", HttpStatus.OK);
+    @GetMapping("/validate/token")
+    public Boolean validate(@RequestParam String token){
+        jwt.validateToken(token);
+
+        return true;
     }
 
 }

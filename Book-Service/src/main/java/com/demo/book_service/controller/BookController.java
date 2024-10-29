@@ -16,13 +16,13 @@ import com.demo.book_service.dao.BookRepository;
 import com.demo.book_service.entity.Book;
 
 @RestController
-@RequestMapping("/api")
+@RequestMapping("/api/book")
 public class BookController {
 
 	@Autowired
 	BooksService booksService;
 	
-	@GetMapping("/books")
+	@GetMapping("/getbook")
 	public List<Book> getAllBooks() {
 		return booksService.getAllBooks();
 	}
@@ -32,7 +32,7 @@ public class BookController {
 		return booksService.getABooks(bookName);
 	}
 	
-	@PostMapping("/books")
+	@PostMapping("/addbook")
 	public Book addBook(@RequestBody Book newBook) {
 		return booksService.addBook(newBook);
 	}
@@ -42,7 +42,7 @@ public class BookController {
 		return booksService.getAllAuthors();
 	}
 
-	@GetMapping("/getAuthor/{authorId}")
+	@GetMapping("/getauthor/{authorId}")
 	public Author getAuthorById(@PathVariable String authorId) {
 		return booksService.getAuthorById(authorId);
 	}

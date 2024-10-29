@@ -5,42 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="46e69dd6-6be3-4500-aad6-204b5517c477" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Authentication-Service/src/main/java/com/Authenticatioon_Service/Authentication_Service/Config/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Authentication-Service/src/main/java/com/Authenticatioon_Service/Authentication_Service/Dto/Userdto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Authentication-Service/src/main/java/com/Authenticatioon_Service/Authentication_Service/Entity/PrincipalUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Authentication-Service/src/main/java/com/Authenticatioon_Service/Authentication_Service/Entity/UserInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Authentication-Service/src/main/java/com/Authenticatioon_Service/Authentication_Service/Repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Authentication-Service/src/main/java/com/Authenticatioon_Service/Authentication_Service/Service/CustomUserDetailsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Authentication-Service/src/main/java/com/Authenticatioon_Service/Authentication_Service/Service/JwtService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Authentication-Service/src/main/java/com/Authenticatioon_Service/Authentication_Service/Service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Authentication-Service/src/main/java/com/Authenticatioon_Service/Authentication_Service/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GatewayApplication/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GatewayApplication/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GatewayApplication/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GatewayApplication/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GatewayApplication/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GatewayApplication/src/main/java/com/UST/GatewayApplication/GatewayApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GatewayApplication/src/main/java/com/UST/GatewayApplication/filter/AuthenticationFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GatewayApplication/src/main/java/com/UST/GatewayApplication/filter/RouteValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GatewayApplication/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GatewayApplication/src/test/java/com/UST/GatewayApplication/GatewayApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AuthentictaionService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AuthentictaionService/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AuthentictaionService/src/main/java/com/Library/AuthentictaionService/AuthentictaionServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AuthentictaionService/src/main/java/com/Library/AuthenticationService/AuthenticationServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AuthentictaionService/src/main/java/com/Library/AuthentictaionService/Service/CustomUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AuthentictaionService/src/main/java/com/Library/AuthenticationService/Service/CustomUserDetailsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AuthentictaionService/src/main/java/com/Library/AuthentictaionService/Service/JwtService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AuthentictaionService/src/main/java/com/Library/AuthenticationService/Service/JwtService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AuthentictaionService/src/main/java/com/Library/AuthentictaionService/Service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AuthentictaionService/src/main/java/com/Library/AuthenticationService/Service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AuthentictaionService/src/main/java/com/Library/AuthentictaionService/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AuthentictaionService/src/main/java/com/Library/AuthenticationService/config/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AuthentictaionService/src/main/java/com/Library/AuthentictaionService/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AuthentictaionService/src/main/java/com/Library/AuthenticationService/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AuthentictaionService/src/main/java/com/Library/AuthentictaionService/dto/Userdto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AuthentictaionService/src/main/java/com/Library/AuthenticationService/dto/Userdto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AuthentictaionService/src/main/java/com/Library/AuthentictaionService/entity/PrincipalUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AuthentictaionService/src/main/java/com/Library/AuthenticationService/entity/PrincipalUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AuthentictaionService/src/main/java/com/Library/AuthentictaionService/entity/UserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AuthentictaionService/src/main/java/com/Library/AuthenticationService/entity/UserInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AuthentictaionService/src/main/java/com/Library/AuthentictaionService/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AuthentictaionService/src/main/java/com/Library/AuthenticationService/repository/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AuthentictaionService/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../AuthentictaionService/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AuthentictaionService/src/test/java/com/Library/AuthentictaionService/AuthentictaionServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AuthentictaionService/src/test/java/com/Library/AuthenticationService/AuthentictaionServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Authentication-Service/dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GatewayApplication/dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Authentication-Service/src/main/java/com/Authenticatioon_Service/Authentication_Service/Config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Authentication-Service/src/main/java/com/Authenticatioon_Service/Authentication_Service/Config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Authentication-Service/src/main/java/com/Authenticatioon_Service/Authentication_Service/Service/JwtService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Authentication-Service/src/main/java/com/Authenticatioon_Service/Authentication_Service/Service/JwtService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Authentication-Service/src/main/java/com/Authenticatioon_Service/Authentication_Service/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Authentication-Service/src/main/java/com/Authenticatioon_Service/Authentication_Service/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Authentication-Service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Authentication-Service/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AuthorServices/dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/../AuthorServices/dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AuthorServices/src/main/java/com/AuthorServices/Author/Controller/AuthorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AuthorServices/src/main/java/com/AuthorServices/Author/Controller/AuthorController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Book-Service/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AuthorServices/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../AuthorServices/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Book-Service/dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/../Book-Service/dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Book-Service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Book-Service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Book-Service/src/main/java/com/demo/book_service/Feign/AuthorClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Book-Service/src/main/java/com/demo/book_service/Feign/AuthorClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Book-Service/src/main/java/com/demo/book_service/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Book-Service/src/main/java/com/demo/book_service/controller/BookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Book-Service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Book-Service/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GatewayApplication/src/main/java/com/UST/GatewayApplication/filter/AuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GatewayApplication/src/main/java/com/UST/GatewayApplication/filter/AuthenticationFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GatewayApplication/src/main/java/com/UST/GatewayApplication/filter/RouteValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GatewayApplication/src/main/java/com/UST/GatewayApplication/filter/RouteValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GatewayApplication/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../GatewayApplication/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,19 +62,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.AirlinesServicesApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BookAuthorServicesApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.AirlinesServices [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.AirlinesServices [install].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Merging main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Author/Library/AuthentictaionService&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AirlinesServicesApplication.executor": "Run",
+    "Application.BookAuthorServicesApplication.executor": "Run",
+    "Maven.AirlinesServices [clean].executor": "Run",
+    "Maven.AirlinesServices [install].executor": "Run",
+    "Maven.BookAuthorServices [clean].executor": "Run",
+    "Maven.BookAuthorServices [install].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Author/Library/AuthentictaionService"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="BookAuthorServicesApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ust.AirlinesServices.BookAuthorServicesApplication" />
