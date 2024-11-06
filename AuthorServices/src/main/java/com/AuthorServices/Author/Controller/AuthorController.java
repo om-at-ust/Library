@@ -1,5 +1,6 @@
 package com.AuthorServices.Author.Controller;
 
+import com.AuthorServices.Author.Response.ApiResponse;
 import com.AuthorServices.Author.dto.Authordto;
 import com.AuthorServices.Author.entity.Author;
 import com.AuthorServices.Author.service.AuthorService;
@@ -38,8 +39,10 @@ public class AuthorController {
     }
 
     @GetMapping("/getauthors")
-    private List<Authordto> getAllAuthors(){
-        return authorService.getAllAuthors();
+    private ApiResponse<List<Authordto>> getAllAuthors() {
+        List<Authordto> authors = authorService.getAllAuthors();
+        return new ApiResponse<>("success", "Authors fetched successfully", authors);
     }
+
 
 }

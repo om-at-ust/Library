@@ -5,8 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="46e69dd6-6be3-4500-aad6-204b5517c477" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../Book-Service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Book-Service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Authentication-Service/src/main/java/com/Authenticatioon_Service/Authentication_Service/Exception/UserAlreadyExistException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AuthorServices/src/main/java/com/AuthorServices/Author/Response/ApiResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GatewayApplication/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Authentication-Service/src/main/java/com/Authenticatioon_Service/Authentication_Service/Config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Authentication-Service/src/main/java/com/Authenticatioon_Service/Authentication_Service/Config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Authentication-Service/src/main/java/com/Authenticatioon_Service/Authentication_Service/Repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Authentication-Service/src/main/java/com/Authenticatioon_Service/Authentication_Service/Repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Authentication-Service/src/main/java/com/Authenticatioon_Service/Authentication_Service/Service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Authentication-Service/src/main/java/com/Authenticatioon_Service/Authentication_Service/Service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Authentication-Service/src/main/java/com/Authenticatioon_Service/Authentication_Service/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Authentication-Service/src/main/java/com/Authenticatioon_Service/Authentication_Service/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Authentication-Service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Authentication-Service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AuthorServices/src/main/java/com/AuthorServices/Author/Controller/AuthorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AuthorServices/src/main/java/com/AuthorServices/Author/Controller/AuthorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AuthorServices/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../AuthorServices/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Book-Service/src/main/java/com/demo/book_service/Feign/AuthorClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Book-Service/src/main/java/com/demo/book_service/Feign/AuthorClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GatewayApplication/src/main/java/com/UST/GatewayApplication/filter/AuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GatewayApplication/src/main/java/com/UST/GatewayApplication/filter/AuthenticationFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GatewayApplication/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../GatewayApplication/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
